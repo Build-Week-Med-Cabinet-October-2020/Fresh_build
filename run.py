@@ -20,7 +20,6 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')), 
         dbc.NavItem(dcc.Link('Insights', href='/insights', className='nav-link')), 
         dbc.NavItem(dcc.Link('Process', href='/process', className='nav-link')),
-        dbc.NavItem(dcc.Link('Pagename', href='/pagename', className='nav-link')), 
     ],
     sticky='top',
     color='info', 
@@ -39,10 +38,8 @@ footer = dbc.Container(
         dbc.Col(
             html.P(
                 [
-                    html.Span('Brendan Hoss', className='Ds-19'), 
-                    html.A(html.I(className='fas fa-envelope-square mr-1'), href='mailto:<you>@<provider>.com'), 
-                    html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/Bh0ss/bw3template'),  
-                    html.A(html.I(className='fab fa-twitter-square mr-1'), href='https://twitter.com/bhoss13'), 
+                    html.Span('Hunter Ashby, Tristan Brown, Bharath Gogineni, Brendon Hoss ', className='Ds-19'), 
+                    html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/Build-Week-Med-Cabinet-October-2020'),  
                 ], 
                 className='lead'
             )
