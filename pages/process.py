@@ -10,26 +10,42 @@ from app import app
 
 # 1 column layout
 # https://dash-bootstrap-components.opensource.faculty.ai/l/components/layout
-column1 = dbc.Col(
+row = html.Div(
     [
-        dcc.Markdown(
-            """
-        
-            ## Process
-            In order to achieve the most accurate results possible we take into consideration a few major factors.
-            To begin with we have created a three step system
+        dbc.Row(
+            [
+                dcc.Markdown(
+                    """
+                
+                    ## Process
 
-            1) Ask
-            2) Compute
-            3) Display
+                    Our process uses two diffrent models, the first one uses TFIDF vectorization to turn our data into 
+                    values that we can work with and manipulate into a way that we can use them in the second model to make 
+                    recomendations for the user.
 
-            Following these three simple steps we are capable of recommending to you the best possible strains to alievate your illness.
+                    The second model is called nearest neighbors, it takes the data from the first model and gives a value
+                    to each observation, and it finds the observations nearest to a given observation that the user will input
 
+                    We made a function that passes user input into the TFIDF vectorization and then it uses the nearest neighbors
+                    model to recommend the three nearest marjuana strains that suits all the users specified parameters`
 
-            """
+                    """
+                ),
+            ]
         ),
+
+        dbc.Row(
+            [
+                dbc.Col(
+                    html.Div(html.Img(src=app.get_asset_url('nearestNeighbors.png'), style={'height':'83%','width':'83%'})),
+                ),
+                dbc.Col(
+                    html.Div(html.Img(src=app.get_asset_url('equation.png'))), 
+                ),
+            ]
+        )
 
     ],
 )
 
-layout = dbc.Row([column1])
+layout = row
