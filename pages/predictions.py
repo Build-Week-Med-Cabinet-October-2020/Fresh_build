@@ -43,7 +43,7 @@ row = html.Div(
                             ## Predictions
 
                             As a consumer of cannabis you most likely are looking to achieve something specific,
-                            wether that specific feeling is just relaxation or creativity we are here to help find the right fit for you!
+                            whether that specific feeling is just relaxation or creativity we are here to help find the right fit for you!
                             
                             """
                         ),
