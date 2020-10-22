@@ -29,7 +29,7 @@ column1 = dbc.Col(
 
             All in all this was a good build that taught me new things, like the two mentioned above and about what a Github workflow looks like
             working with a team of people rather than just yourself. If there was one thing that I could change it would be that our group
-            didn't get a team lead, so we lost the experience of having to work under someone and instead just ended up talking to eachother
+            didn't get a team lead, so we lost the experience of having to work under someone and instead just ended up talking to each other
             about our ideas and how to implement them.
 
             """
