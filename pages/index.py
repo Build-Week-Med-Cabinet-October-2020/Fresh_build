@@ -16,7 +16,7 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Marijuana Recomender
+            ## Marijuana Recommender
 
             This app will help guide you on the right path to enjoying your high everytime!
             
@@ -25,8 +25,8 @@ column1 = dbc.Col(
             ❌ MedCabinet is delicatly enhanced to give each user the best possible feedback. Working closely with a expert team of data scientist we have sourced get the highest quality information to help our patients with incredible accuracy.
 
             Marijuana can help treat a multitude of diffrent ailments, but one of the harder questions is 
-            what strain is right for you. Do you want the train that helps you be more creative and able to focus, the one 
-            that is supposed to calm you down and make you less anxious, or a certain mix of both. 
+            what strain is right for you. Do you want the strain that helps you be more creative and able to focus, the one 
+            that is supposed to calm you down and make you less anxious, or a certain mix of both?
             
             This app was made to help answer these
             questions in a meaningful and usable way. It is simple to use and can give a recommendation backed
