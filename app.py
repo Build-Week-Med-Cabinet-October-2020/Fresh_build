@@ -8,7 +8,7 @@ dash-bootstrap-components provides Bootstrap components.
 """
 
 external_stylesheets = [
-    dbc.themes.SUPERHERO, # Bootswatch theme
+    dbc.themes.DARKLY, # Bootswatch theme
     'https://use.fontawesome.com/releases/v5.9.0/css/all.css', # for social media icons
 ]
 
